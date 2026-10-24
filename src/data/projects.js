@@ -1,5 +1,39 @@
 // Replace descriptions, metrics, and links with verified, non-confidential details.
 export const projects = [
+
+  {
+    id: "enterprise-rag-application",
+    number: "02",
+    title: "Enterprise RAG Platform",
+    category: "Generative AI",
+    type: "ENTERPRISE KNOWLEDGE RETRIEVAL",
+    description:
+      "An enterprise-grade Retrieval-Augmented Generation (RAG) application that enables users to query organizational documents using LLM-powered semantic search, contextual retrieval, and grounded responses.",
+    challenge:
+      "Enterprise documents are distributed across PDF, TXT, and Markdown files. The challenge is to build a modular, scalable pipeline that ingests documents, generates embeddings, retrieves relevant context, and produces reliable, context-aware answers.",
+    approach: [
+      "Document ingestion, parsing, and text chunking",
+      "Embedding generation and vector database indexing",
+      "Semantic search and contextual retrieval",
+      "LangGraph-based RAG workflow orchestration",
+      "LLM-powered answer generation with source grounding",
+      "Modular architecture for scalable API integration"
+    ],
+    stack: [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "OpenAI",
+      "Vector Database",
+      "Embeddings",
+      "FastAPI",
+      "uv"
+    ],
+    accent: "mint",
+    repoUrl: "",
+    demoUrl: "https://enterprise-rag-lfy6.onrender.com"
+  },
+
   {
     id: "lenovo-log-forecaster",
     number: "01",
