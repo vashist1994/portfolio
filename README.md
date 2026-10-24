@@ -37,7 +37,7 @@ Set the `base` option in `vite.config.js` to `"/YOUR_REPOSITORY_NAME/"`, then bu
 
 ## Customize before publishing
 - **Profile and contact details:** `src/data/profile.js`
-- **Project cards and descriptions:** `src/data/projects.js`
+- **Project cards, descriptions, and hosted demo URLs:** `src/data/projects.js` (`demoUrl`)
 - **Skills:** `src/data/skills.js`
 - **Layout and sections:** `src/components/`
 - **Theme and responsive styles:** `src/styles.css`
@@ -45,6 +45,6 @@ Set the `base` option in `vite.config.js` to `"/YOUR_REPOSITORY_NAME/"`, then bu
 ## Important
 - Replace `your.email@example.com` and the LinkedIn/GitHub URLs in `src/data/profile.js`.
 - Project descriptions are editable starter copy; verify details, impact metrics, and confidentiality before publishing.
-- Add your own resume PDF at `public/resume.pdf` and set `resumeUrl` in `src/data/profile.js` to `/resume.pdf`.
+- Add your resume PDF at `public/resume.pdf`; the Resume navigation link downloads it as `Vashist-Narayan-Singh-Resume.pdf`.
 - Do not publish employer/client-confidential information, production logs, or private datasets.
 - The contact button opens the visitor's email application using a `mailto:` link. It does not submit data to a server.

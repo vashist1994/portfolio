@@ -11,7 +11,8 @@ export const projects = [
     approach: ["Log parsing & feature engineering", "Time-series and anomaly signals", "Failure-risk modelling workflow"],
     stack: ["Python", "Pandas", "Time Series", "ML"],
     accent: "mint",
-    repoUrl: ""
+    repoUrl: "",
+    demoUrl: "https://lenovoforecaster.com"
   },
   {
     id: "oci-ml-workflow",
@@ -24,7 +25,8 @@ export const projects = [
     approach: ["Data preparation pipeline", "Experiment and model workflow", "Deployment-oriented design"],
     stack: ["Python", "OCI", "ML Pipelines", "MLOps"],
     accent: "violet",
-    repoUrl: ""
+    repoUrl: "",
+    demoUrl: "https://ociworkflow.com"
   },
   {
     id: "steris-analytics",
@@ -37,7 +39,8 @@ export const projects = [
     approach: ["Data quality and exploration", "Feature engineering", "Model evaluation and communication"],
     stack: ["Python", "SQL", "Statistics", "Visualization"],
     accent: "blue",
-    repoUrl: ""
+    repoUrl: "",
+    demoUrl: "https://sterisanalytics.com"
   },
   {
     id: "fraud-analytics",
@@ -50,7 +53,8 @@ export const projects = [
     approach: ["Imbalanced-data evaluation", "Risk signal engineering", "Precision/recall-focused assessment"],
     stack: ["Python", "Scikit-learn", "SQL", "Analytics"],
     accent: "amber",
-    repoUrl: ""
+    repoUrl: "",
+    demoUrl: "https://fraudanalytics.com"
   },
 
 ];
